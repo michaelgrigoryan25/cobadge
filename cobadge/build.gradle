@@ -4,7 +4,6 @@ plugins {
     id 'maven-publish'
 }
 
-version = component_version
 group = "com.github.michaelgrigoryan25"
 
 android {
