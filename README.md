@@ -26,6 +26,20 @@ Add this line at the end of `repositories`:
 maven { url 'https://jitpack.io' }
 ```
 
+If your project is set to fail on project repositories, then add that line to `settings.gradle` file in `repositories` field, so that it looks approximately like this
+
+```groovy
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+rootProject.name = "Your application"
+```
+
 ### Add the dependency and replace `Tag` with the latest version.
 
 Latest version is indicated below:
@@ -74,6 +88,5 @@ fontWeight: FontWeight = FontWeight.Bold
 # Contributions
 
 Contributions to Cobadge are welcome! Saw a bug? [Create a pull request!](https://github.com/michaelgrigoryan25/cobadge/issues/new) Have a suggestion? [Create an issue](https://github.com/michaelgrigoryan25/cobadge/issues/new) or [start a discussion!](https://github.com/michaelgrigoryan25/cobadge/discussions/new)
-
 
 _Author: Michael Grigoryan_
