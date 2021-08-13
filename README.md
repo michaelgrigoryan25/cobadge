@@ -60,7 +60,16 @@ implementation("com.github.michaelgrigoryan25:cobadge:Tag")
 
 # Usage
 
-Using Cobadge is really easy! Here are all the options that Cobadge takes. Fortunately, most of them are optional.
+Using Cobadge is really easy! Here's an example:
+
+```kotlin
+Badge(
+    color = Color200,
+    text = "Hello World"
+)
+```
+
+Here are all the options that Cobadge takes. Fortunately, most of them are optional.
 
 ```kotlin
 // Badge text
