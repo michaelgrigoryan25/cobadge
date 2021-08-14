@@ -12,7 +12,7 @@
     <a href="#"><img height="70px" src="docs/screenshots/badges.png" alt="Badges" /></a>
 </p>
 
-<h4 style = "margin-bottom: 5%" align = "center">🗻 Unopinionated, easy-to-use, and customizable Badge component for Jetpack Compose</h4>
+<p style = "margin-bottom: 5%" align = "center">🗻 Unopinionated, easy-to-use, and customizable Badge component for Jetpack Compose</p>
 
 # Getting started
 
