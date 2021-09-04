@@ -12,7 +12,7 @@
     <a href="#"><img height="70px" src="docs/screenshots/badges.png" alt="Badges" /></a>
 </p>
 
-<h4 style = "margin-bottom: 5%" align = "center">🗻 Unopinionated, easy-to-use, and customizable Badge component for Jetpack Compose</h4>
+<p style = "margin-bottom: 5%" align = "center">🗻 Unopinionated, easy-to-use, and customizable Badge component for Jetpack Compose</p>
 
 # Getting started
 
@@ -60,7 +60,16 @@ implementation("com.github.michaelgrigoryan25:cobadge:Tag")
 
 # Usage
 
-Using Cobadge is really easy! Here are all the options that Cobadge takes. Fortunately, most of them are optional.
+Using Cobadge is really easy! Here's an example:
+
+```kotlin
+Badge(
+    color = Color200,
+    text = "Hello World"
+)
+```
+
+Here are all the options that Cobadge takes. Fortunately, most of them are optional.
 
 ```kotlin
 // Badge text
