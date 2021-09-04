@@ -51,10 +51,10 @@ fun Badge(
     size: Size = Size.MD,
     paddingSelf: Dp = 4.dp,
     isClickable: Boolean = true,
+    onClickAction: () -> Unit = {},
     rounded: Rounding = Rounding.XL,
     backgroundColorOpacity: Float = 1f,
     textColor: Color = Color.Unspecified,
-    onClickAction: () -> Unit = fun() {},
     fontWeight: FontWeight = FontWeight.Bold
 ) {
     // Calculating the rounding of the badge
