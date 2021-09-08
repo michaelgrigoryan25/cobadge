@@ -89,7 +89,7 @@ backgroundColorOpacity: Float = 1f,
 // Badge text color
 textColor: Color = Color.Unspecified,
 // Action that is going to get triggered on click
-onClickAction: () -> Unit = fun() {},
+onClickAction: () -> Unit = {},
 // Badge text font weight
 fontWeight: FontWeight = FontWeight.Bold
 ```
